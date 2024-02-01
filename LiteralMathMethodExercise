@@ -1,0 +1,37 @@
+//  1a
+let warmHugs = "Hi, I'm Olaf and I like warm hugs.";
+// 1b
+console.log(warmHugs.toUpperCase());
+// 1c
+warmHugs = warmHugs.replace("like", "love");
+console.log(warmHugs);
+// 2a 
+let beenImpaled = "Oh, look at that. I've been impaled.";
+// 2b 
+console.log(beenImpaled.slice(17));
+// 3a 
+let dotDotDot = "...";
+// 3b
+let skullBones = `${dotDotDot} I don't have a skull...or bones.`;
+console.log(skullBones); 
+// 4 
+console.log(Math.PI);
+// 5 
+let randomNumber = Math.floor(Math.random() * 3) + 1;
+
+// BONUS
+// 6 
+var str = "Let It Go!";
+console.log(str.charAt(0).toUpperCase() + str.slice(1) + " " + str.charAt(0).toUpperCase() + str.slice(1) + "!"); 
+// 7a 
+var reindeers = "Reindeers are better than people.";
+// 7b 
+console.log(reindeers.replace(" ", "_"));
+// 8 
+console.log(Math.sqrt(2));
+// 9
+var newRandomNumber = Math.floor(Math.random() * (23 - 7 + 1) + 7);n
+
+
+
+
